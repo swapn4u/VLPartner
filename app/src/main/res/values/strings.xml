@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">V.L.Partner</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_scanQR">Scan QR</string>
+    <string name="menu_customerInfo">Customer Details</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="Vehicles">
+        <item>Honda</item>
+        <item>Bajaj</item>
+        <item>Yamaha</item>
+        <item>Suzuki</item>
+        <item>Hero</item>
+        <item>TVS</item>
+    </string-array>
+
+    <string-array name="VehiclesModel">
+        <item>Honda SP 125</item>
+        <item>Honda Activa 6G</item>
+        <item>Honda Hness CB350</item>
+        <item>Honda Shine</item>
+        <item>Honda Unicorn</item>
+        <item>Honda Hornet 2.0</item>
+        <item>Honda Dio</item>
+        <item>Honda X-Blade</item>
+        <item>Honda CB350RS</item>
+        <item>Honda CB300R</item>
+        <item>Honda Livo</item>
+        <item>Honda CD 110 Dream</item>
+    </string-array>
+
+
+</resources>

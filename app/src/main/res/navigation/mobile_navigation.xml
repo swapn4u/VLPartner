@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.vehiclecontractor.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_QRCodeScanner2"
+            app:destination="@id/QRCodeScanner" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/QRCodeScanner"
+        android:name="com.example.vehiclecontractor.ui.QRCodeScanner.QRCodeScanner"
+        android:label="@string/menu_scanQR"
+        tools:layout="@layout/fragment_qr_code_scanner" >
+        <action
+            android:id="@+id/action_QRCodeScanner_to_sendClientRequestVC"
+            app:destination="@id/sendClientRequestVC" />
+    </fragment>
+    <fragment
+        android:id="@+id/sendClientRequestVC"
+        android:name="com.example.vehiclecontractor.ui.ClientRequest.SendClientRequestVC"
+        android:label="@string/menu_customerInfo"
+        tools:layout="@layout/fragment_send_client_request_vc" >
+        <argument
+            android:name="scennerData"
+            app:argType="string" />
+<!--        <action-->
+<!--            android:id="@+id/goToMyReference"-->
+<!--            app:destination="@id/myReferences" />-->
+    </fragment>
+
+    <fragment
+        android:id="@+id/myReferences"
+        android:name="com.example.vehiclecontractor.ui.MyReferences.MyReferences"
+        android:label="My References"
+        tools:layout="@layout/my_references_fragment" />
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.vehiclecontractor.ui.Login.LoginFragment"
+        android:label="Login"
+        tools:layout="@layout/login_fragment" >
+        <action
+            android:id="@+id/action_login_to_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+</navigation>

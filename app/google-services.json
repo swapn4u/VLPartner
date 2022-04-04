@@ -1,0 +1,101 @@
+{
+  "project_info": {
+    "project_number": "635999314740",
+    "firebase_url": "https://vasumotors-74fb6-default-rtdb.firebaseio.com",
+    "project_id": "vasumotors-74fb6",
+    "storage_bucket": "vasumotors-74fb6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635999314740:android:abca4cdf8dac304665bb61",
+        "android_client_info": {
+          "package_name": "com.vasu.vldealer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635999314740-me78ki10qmmsfvk4ta1i84dar174qhra.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vasu.vldealer",
+            "certificate_hash": "5a7b1e0fd0f62ac9e8605dcc706131e84b778a02"
+          }
+        },
+        {
+          "client_id": "635999314740-q7cvhad9rkf90ssucog7um6vehbvogur.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vasu.vldealer",
+            "certificate_hash": "69ce15882850861aa5a2aebec67e09d471e1da64"
+          }
+        },
+        {
+          "client_id": "635999314740-4b0opnopkumur63i678ak8sglq45m6mi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU7-o9pnjcixPVd-bvnvX_faVE8y5Wews"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "635999314740-4b0opnopkumur63i678ak8sglq45m6mi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635999314740:android:be697b4d09bc773165bb61",
+        "android_client_info": {
+          "package_name": "com.vasu.vlpartner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635999314740-7oatldnh5r1f8kqoospam9f175a2r0nt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vasu.vlpartner",
+            "certificate_hash": "5a7b1e0fd0f62ac9e8605dcc706131e84b778a02"
+          }
+        },
+        {
+          "client_id": "635999314740-jrraalfmdfa1d07s13ga6oj1762a5f43.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vasu.vlpartner",
+            "certificate_hash": "69ce15882850861aa5a2aebec67e09d471e1da64"
+          }
+        },
+        {
+          "client_id": "635999314740-4b0opnopkumur63i678ak8sglq45m6mi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU7-o9pnjcixPVd-bvnvX_faVE8y5Wews"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "635999314740-4b0opnopkumur63i678ak8sglq45m6mi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
